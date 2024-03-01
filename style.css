@@ -1,0 +1,180 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headerLogo #HeaderImage {
+    width: 34px;
+    height: 34px;
+  }
+  .headerContainer, .headerLogo, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+  }
+  .headerContainer { 
+    padding: 1.5rem 3.3125rem;
+  }
+  .title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 4px
+  }
+  li {
+    list-style: none;
+  }
+  
+  .navList a {
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+
+.logo img{
+    width: 120px;
+    padding-left: 1em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+li{
+    padding-right: 1em;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.head{
+    background-image: url(images/h.jpg);
+    color: white;
+    height: 55vh;
+    max-height: 350px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+header p{
+    color: rgb(159, 151, 151);
+    padding-left: 0.7em;
+}
+.headerContent{
+    padding-right: 0.5em;
+    margin-top: -0.5em;
+    width: 60%;
+}
+header h1{
+  font-size: 1.7rem;
+  padding-right: 0;
+  padding-left: 0.5em;
+}
+.blog img{
+    width: 270px;
+    height: 200px;
+}
+h3{
+    padding-left: 0.5em;
+}
+.blog p{
+    color: rgb(159, 151, 151);
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.blog{
+    flex: 200px 1;
+   
+}
+.recentPosts{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.link{
+    color: black;
+    text-align: center;
+}
+footer{
+    background-color: rgb(36, 33, 33);
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 12vh;
+    padding-top: 0.01em;
+    max-height:70px;
+}
+.header{
+    padding-top: 3em;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.para{width: 100%;}
+.h1{
+    text-align: center;
+}
+.me{
+    display: flex;
+}
+.me img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+@media screen and (max-width:800px) {
+   .container{
+    width: 95%;
+   }
+   .blog img{
+    width: 100%;
+    height: 200px;
+}
+.link{
+    text-align: center;
+}
+.flex-item{
+    width: 93%;
+}
+.me{
+    flex-wrap: wrap;
+}
+}
+
+
+  
+@media(max-width:480px) {
+    .headerContainer {
+        padding: 1em 1.25em
+    }
+    .headerLogo img {
+        width: 20px;
+        height: 20px;
+    }
+    .title {
+        font-size: 0.8rem
+    }
+    .navList {
+        font-size: 0.8rem;
+    }
+}
+
+
